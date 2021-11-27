@@ -1,0 +1,52 @@
+.about {
+    padding: 100px 0px;
+}
+
+.image {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.about-header {
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: start;
+    font-family: Montserrat,sans-serif;
+}
+
+.about-text {
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Poppins,sans-serif;
+    margin-bottom: 15px;
+}
+
+.about-button {
+    display: flex;
+    align-items: center;  
+}
+
+.button {
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid darkblue;
+    background-color: darkblue;
+    color: #fff!important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .4s all ease;
+    height: 50px;
+    width: 180px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #fff;
+    color: darkblue!important;
+  }

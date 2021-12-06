@@ -9,7 +9,7 @@ import { FaAngular } from 'react-icons/fa';
 
 function Service() {
     return (
-        <div className="service">
+        <div className="service" id="service">
             <div className="heading">
                 <h1 className="heading">Services</h1>
                 <p className="heading-text">Sed egestas neque sed libero auctor imperdiet. Nullam eget blandit augue, id semper massa.</p>

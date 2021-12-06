@@ -1,0 +1,22 @@
+.button-space {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 999;
+}
+
+.top-button {
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid darkblue;
+    background-color: darkblue;
+    color: #fff!important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .4s all ease;
+    height: 55px;
+    width: 55px;
+    margin-top: 20px;
+    cursor: pointer;
+}

@@ -1,10 +1,10 @@
 .home-bg {
-    /* background-image: url('./images/background.png');
+    background-image: url('./images/background-x3.png');
     background-color: white;
-    background-position: 95%;
+    background-position: 90%;
     background-repeat: no-repeat;
     background-size: auto;
-    min-height: 600px; */
+    min-height: 600px;
 }
 
 .header {
@@ -31,12 +31,30 @@
 }
 
 .nav-item {
+    text-decoration: none;
+    color: black;
+    position: relative;
     padding: 25px;
     cursor: pointer;
+    padding: 20px 0px;
+    margin: 0px 20px; 
 }
 
-.nav-item:hover {
-    color: darkblue;
+.nav-item::before {
+    transition: 300ms;
+    height: 2.5px;
+    content: "";
+    position: absolute;
+    background-color: darkblue;
+  }
+
+.nav-item::before {
+    width: 0%;
+    bottom: 10px;
+  }
+
+.nav-item:hover::before {
+    width: 100%;
 }
 
 .home-content {

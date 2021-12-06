@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
-import logo from "./images/logo.png";
+import logo from './images/logo.png';
+import background from './images/background-x3.png';
 
 function Home() {
     return (
@@ -12,15 +13,14 @@ function Home() {
                     </div>
                     <div className="navigation">
                         <ul className="navbar">
-                            <li href="#Home"><a className="nav-item">Home</a></li>
-                            <li href="#About"><a className="nav-item">About</a></li>
-                            <li href="#Services"><a className="nav-item">Services</a></li>
-                            <li href="#Blog"><a className="nav-item">Blog</a></li>
-                            <li href="#Contact"><a className="nav-item">Contact</a></li>
+                            <li><a href="#home" className="nav-item">Home</a></li>
+                            <li><a href="#about" className="nav-item">About</a></li>
+                            <li><a href="#service" className="nav-item">Services</a></li>
+                            <li><a href="#project" className="nav-item">Projects</a></li>
+                            <li><a href="#contact" className="nav-item">Contact</a></li>
                         </ul>
                     </div>
                 </div>
-                {/* Home Content */}
                 <div className="container">
                     <div className="home-content">
                         <h1 className="home-header">Welcome</h1>

@@ -1,0 +1,74 @@
+.contact {
+    padding: 100px 0px;
+}
+
+.contact-header {
+    font-size: 32px;
+    line-height: 80px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-family: Montserrat, sans-serif;
+}
+
+.contact-text {
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Poppins,sans-serif;
+    margin-bottom: 15px;
+}
+
+.contact-input {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    height: 50px;
+    line-height: 46px;
+    margin: 20px 0px;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: .1px;
+    background: none;
+    border: 2px solid darkblue;
+    font-family: Montserrat, sans-serif;
+}
+
+textarea#message {
+    height: 150px;
+    background: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    width: 100%;
+    line-height: 25px;
+    color: black;
+    font-size: 15px;
+    letter-spacing: .1px;
+    border: 2px solid darkblue;
+    font-family: Montserrat, sans-serif;
+}
+
+.contact-button {
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid darkblue;
+    background-color: darkblue;
+    color: #fff!important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .4s all ease;
+    height: 50px;
+    width: 180px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.contact-image {
+    width: 100%;
+    overflow: hidden;
+}

@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   outline: none;
+  scroll-behavior: smooth;
 }
 body{
   width: 100%;
@@ -19,7 +20,7 @@ body{
   margin: 0px auto;
 }
 
-.row{
+.row {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -43,6 +44,11 @@ body{
   justify-content: center;
   flex-direction: column;
   margin-top: 20px;
+}
+
+strong {
+  color: darkblue;
+  font-weight: bolder;
 }
 
 .App-logo {

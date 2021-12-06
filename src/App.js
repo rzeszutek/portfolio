@@ -4,6 +4,8 @@ import Home from './Home';
 import About from './About';
 import Service from './Service';
 import Project from './Project';
+import Contact from './Contact';
+import ToTopButton from './ToTopButton';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
        <Home />
        <About />
        <Service />
+       <Contact />
+       <ToTopButton />
     </div>
   );
 }

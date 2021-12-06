@@ -6,7 +6,7 @@ import photo3 from './images/ecommerce3.png';
 
 function Project() {
     return (
-        <div className="project">
+        <div className="project" id="project">
             <div className="heading">
                 <h1></h1>
                 <p></p>

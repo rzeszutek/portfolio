@@ -25,10 +25,9 @@ function ToTopButton() {
 
     return (
         <div className="button-space">
-            <button onClick={scrollToTop} className="top-button" style={{display: visible ? 'inline' : 'none'}}>Up</button>
+            <button onClick={scrollToTop} className="top-button" style={{display: visible ? 'inline' : 'none'}}>UP</button>
         </div>
     )
 }
 
 export default ToTopButton;
-;

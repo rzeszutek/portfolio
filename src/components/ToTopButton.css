@@ -15,8 +15,8 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: .4s all ease;
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
     margin-top: 20px;
     cursor: pointer;
 }

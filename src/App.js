@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './Home';
-import About from './About';
-import Service from './Service';
-import Project from './Project';
-import Contact from './Contact';
-import ToTopButton from './ToTopButton';
+import Home from './components/Home';
+import About from './components/About';
+import Service from './components/Service';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import ToTopButton from './components/ToTopButton';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
        <About />
        <Service />
        <Contact />
+       <Footer />
        <ToTopButton />
     </div>
   );

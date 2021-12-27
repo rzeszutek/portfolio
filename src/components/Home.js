@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
-import logo from './images/logo.png';
-import background from './images/background-x3.png';
+import logo from '../images/logo.png';
+import background from '../images/background-x3.png';
 
 function Home() {
     return (

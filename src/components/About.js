@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import computer from './images/computer.png';
+import computer from '../images/computer.png';
 
 function About() {;
     return (

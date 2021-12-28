@@ -5,7 +5,7 @@ function ToTopButton() {
     const [visible, setVisible] = useState(false)
   
     const toggleVisible = () => {
-      const scrolled = document.documentElement.scrollTop;
+      const scrolled = document.querySelector.scrollTop;
       if (scrolled > 300){
         setVisible(true)
       } 

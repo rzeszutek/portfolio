@@ -5,7 +5,7 @@ import background from '../images/background-x3.png';
 
 function Home() {
     return (
-        <div className="home">
+        <div className="home" id="home">
             <div className="home-bg">
                 <div className="header">
                     <div>

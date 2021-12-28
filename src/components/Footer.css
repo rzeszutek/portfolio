@@ -7,7 +7,7 @@
   font-family: Montserrat, sans-serif;
 }
 
-p, a {
+.footer-text {
   text-decoration: none;
   text-align: center;
   color: black;
@@ -15,7 +15,7 @@ p, a {
   font-family: Poppins,sans-serif;
 }
 
-.icon {
+.footer-icon {
   text-align: center;
   width: 20px;
   height: 20px;

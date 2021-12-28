@@ -72,3 +72,23 @@ textarea#message {
     width: 100%;
     overflow: hidden;
 }
+
+@media only screen and (max-width: 1024px) {
+    .contact-text {
+        font-size: 12px!important;
+    }
+
+    textarea#message {
+        font-size: 12px!important;
+    }
+}
+
+@media only screen and (max-width: 746px) {
+    .contact-text {
+        font-size: 8px!important;
+    }
+
+    textarea#message {
+        font-size: 8px!important;
+    }
+}

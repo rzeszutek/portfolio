@@ -68,3 +68,38 @@
     margin-bottom: 0;
 }
 
+@media only screen and (max-width: 1024px) {
+    .service-text {
+        font-size: 12px!important;
+    }
+
+    .heading-text {
+        font-size: 12px!important;
+    }
+
+    .column-33 {
+        max-width: 100%;
+        display: block;
+        padding: 10px;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 746px) {
+    .service-heading {
+        font-size: 12px!important;
+    }
+    
+    .service-text {
+        font-size: 8px!important;
+    }
+
+    .heading-text {
+        font-size: 8px!important;
+    }
+
+    .container {
+        display: block;
+    }
+}

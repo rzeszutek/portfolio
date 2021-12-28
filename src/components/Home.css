@@ -20,8 +20,8 @@
 }
 
 .logo {
-    width: 40px;
-    height: 40px;
+    width: 38px;
+    height: 38px;
 }
 
 .navbar {
@@ -84,4 +84,28 @@
     color: darkblue;
     word-spacing: 3px;
     font-family: Montserrat, sans-serif;
+}
+
+.header {
+    transition: .4s all ease;
+}
+
+.header.active {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    padding: 10px 30px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 964px) {
+    .home-bg {
+        background-image: none;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+    }
 }

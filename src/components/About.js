@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './About.css';
 import computer from '../images/computer.png';
 
-function About() {;
+function About() {
+    const toggleStickyHeader = () => {
+        const header = document.querySelector(".header");
+        header.classList.toggle("active", window.scrollY > 0)
+    };
+    
+    window.addEventListener('scroll', toggleStickyHeader);
+
     return (
         <div className="about" id="about">
             <div className="container">
